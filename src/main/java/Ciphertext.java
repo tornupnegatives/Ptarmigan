@@ -16,8 +16,6 @@ public class Ciphertext {
 
             ciphertext.add(encrypt(txt, otp_txt));
         }
-
-
     }
 
     private Integer encrypt(int txt, int otp_txt) {

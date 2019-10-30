@@ -1,6 +1,6 @@
 public class PhenotypeTest {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Plaintext plaintext = new Plaintext("hello!");
         OTP otp = new OTP("1111");
