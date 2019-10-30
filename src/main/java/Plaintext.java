@@ -65,5 +65,9 @@ public class Plaintext {
         return plaintext;
     }
 
+    public int getPlaintextAt(int num) {
+        return plaintext.get(num);
+    }
+
 
 }
