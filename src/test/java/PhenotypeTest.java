@@ -8,8 +8,12 @@ public class PhenotypeTest {
         System.out.println("Plaintext:\t" + plaintext.getPlaintext());
         System.out.println("Length:\t\t" + plaintext.length);
 
-        System.out.println("Input:\t\t" + "22");
-        OTP otp = new OTP(22);
+        System.out.println("Input:\t\t" + "4");
+        OTP otp = new OTP(4);
+        System.out.println("OTP:\t\t" + otp.getOtp());
+
+        System.out.println("Input:\t\t" + "004231");
+        otp = new OTP("0042 31");
         System.out.println("OTP:\t\t" + otp.getOtp());
     }
 }
